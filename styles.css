@@ -21,6 +21,10 @@ header .container{
     flex-direction: row;
 }
 
+header h1{
+  font-size: 18px;
+}
+
 header li {
     list-style-type:none;
     margin: 0 5px;
@@ -31,10 +35,10 @@ header li {
 
 /* Hero-Overview Section */
 .overview-hero-image img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+  /*border: 1px solid #ddd;
+  border-radius: 4px;*/
+  padding: 4px;
+  width: 200px;
   float: left;
   padding-right: 3em;
 }
@@ -47,3 +51,84 @@ main .overview-hero{
   grid-template-columns: 1fr;
   padding: 50px;
 }
+
+header a{
+  text-decoration: none;
+  color: #6b7280;
+}
+
+header a:hover{
+  color: #5A67D8;
+}
+
+/* Learn about section*/
+.learn-about{
+  padding: 50px;
+}
+
+main .learn-about h2{
+  font-size: 24px;
+  color: #48BB78;
+}
+
+main .learn-about .cards{
+    background-color: white;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+    padding: 0;
+
+}
+
+main .learn-about .card{
+    border: 2px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 5px 10px #eceef3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 20px;
+}
+
+main .learn-about .cards h3{
+  color: #48BB78;
+  font-size: 21px;
+}
+
+main .learn-about .cards img{
+  width: 300px;
+  vertical-align: top;
+}
+
+
+/*Covid Testing Section */
+.testing{
+  padding: 80px;
+  color: white;
+  background-color: #4A5568;
+}
+
+.testing .container{
+  display: grid;
+  grid-column: 1 / span 2;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+  column-gap: 50px;
+}
+
+.testing .cta{
+  grid-column: 2;
+  background: #48BB78;
+  border-radius: 5px;
+  padding: 10px 16px;
+  text-align: center;
+  margin: auto;
+}
+
+.testing .cta .btn{
+  color: white;
+  text-decoration: none;
+}
+
