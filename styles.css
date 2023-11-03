@@ -1,7 +1,7 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sansserif;
 }
 
@@ -35,8 +35,6 @@ header li {
 
 /* Hero-Overview Section */
 .overview-hero-image img {
-  /*border: 1px solid #ddd;
-  border-radius: 4px;*/
   padding: 4px;
   width: 200px;
   float: left;
@@ -48,7 +46,6 @@ main .overview-hero{
   display: grid;
   grid-column: 1 / span 2;
   margin: 0 auto;
-  grid-template-columns: 1fr;
   padding: 50px;
 }
 
@@ -132,3 +129,76 @@ main .learn-about .cards img{
   text-decoration: none;
 }
 
+/* Recent Stories Section */
+.stories h2{
+  color: #5A67D8;
+  font-size: 18px;
+}
+
+.stories article{
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 30% 70%;
+  margin: 20px;
+}
+
+.stories .container article img{
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.stories a{
+  color: #5A67D8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*Newsletter Section */
+main .newsletter{
+  background-color: #48BB78;
+  padding: 50px;
+  color: white;
+}
+
+main .newsletter .container{
+    align-items: center;
+    width: 500px;
+}
+
+.newsletter h3{
+  text-align: center;
+}
+
+main .newsletter .container form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    width: 500px;
+    
+}
+
+.newsletter input{
+  width: 300px;
+  padding: 15px;
+  border-radius: 6px;
+  border: none;
+}
+
+main .newsletter button{
+    color: white;
+    background-color: #5A67D8;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer{
+  background-color: #4A5568;
+  padding: 5px;
+  color:white;
+}
