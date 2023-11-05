@@ -30,7 +30,8 @@ header li {
   margin: 0 5px;
   padding: 0;
   display: inline-block;
-  font-size: 18px
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* Hero-Overview Section */
